@@ -3,7 +3,7 @@
 This is a simplified Trading API backend and SDK wrapper built with Python, FastAPI, and in-memory storage. It simulates core trading workflows without real market integration.
 
 ## Setup and Run Instructions
-1. Clone repo: `git clone <your-repo>`
+1. Clone repo: `git clone https://github.com/snithehacker/Bajaj-Assessment-`
 2. Create virtual env: `python -m venv venv; source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
 3. Install deps: `pip install -r requirements.txt`
 4. Run server: `uvicorn app:app --reload`
@@ -34,4 +34,5 @@ All require header `X-API-KEY: secret_key` (mock auth).
 - Docker support (see Dockerfile).
 
 ## Sample Usage
+
 See samples.txt for curl examples.
